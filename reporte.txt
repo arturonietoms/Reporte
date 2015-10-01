@@ -1,0 +1,30 @@
+Arturo Nieto Morales: Reporte de programación.
+
+Una variable estática es una variables que su tiempo de vida se extiende durante toda la ejecución del programa debido a que ha sido ubicada estáticamente. Tiene un ámbito de otras variables normalmente. Se pueden establecer una vez durante el tiempo de ejecución o de igual manera se puede cambiar.
+
+Los ciclos de vida de las variables nos permiten especificar durante cuanto tiempo el contenido deuna variable estará disponiblle a lo largo de la ejecución de la aplicación. Estos varían dependiendo del tiepo de variable:
+
+-Variables estáticas: Estas se crean cuando la clase se usa por primera vez, se inicializan por defecto si es que no se hace de modo explícito: "0" para números, "false" para booleano y "null" para objeto.
+-Variables de clase: Son igual que las estáticas sin embargo estas son meramente perteneccccientes a la clase donde fueron creadas
+-Variables de método: Se crean cuando comienza a ejecutarse el método y se destruyen cuando termina de jecutarse.
+
+La memoria dinámica se refiere a la memoria que se define a la hora de crear un programa ya que no se conoceo tiene alguna idea del número de la variable a considerarse, los datos que se recopilarán, etc.La memoria dinámica solicita memoria en tiempo de ejecución del programa. En el caso del lenguaje C se tienen ejemplos de funciones como lo es malloc()la cual es la forma de obtener bloques de memoria dinámica.
+
+Una clase, pilar fundamental de la programación orientada a objetos, es una plantilla para la creación de objetos de datos según un modelo definido anteriormente. Representan entidades o conceptos, así como los sustantivos en el lenguaje. Cada objeto creado a partir de la clase se llama instancia de la clase. El objeto como tal es una unidad dentro de un programa de computadora que consta tanto de un estado como de un comportamiento, que a su vez constan respectivamente de datos almacenados y de tareas realizables mientras se ejecutan. La instanciación como se comentó anteriormente se produce con la creación de un objeto perteneciente a una clase. El objeto que se crea tiene los atributos, propiedades y métodos de la clase a la cual pertenece.
+
+La herencia es específica de la programación orientada a objetos donde una clase nueva se crea a partir de una existente, esta herencia es conocida como subclase la cual contiene los atributos y métodos de la clase primaria.
+
+La sobrecarga en la informática es la capacidad de un lenguaje de programación, la cual permite nombrar con el mismo identificador diferentes variables u operaciones. En el caso de orientada a objetos es la posibilidad de tener dos o más funciones con el mismo nombre pero fncionalidad diferente, las cuales el compilador sabrá usar dependiendo de los parámetros usados.
+
+Por último el ensombrecimiento se da cuando en un ámbito de validez se define una variabe con nombre idéntico a otra válidad en un ámbito superior.
+
+Bibliografía
+
+Anónimo. (2015, Octubre 1). EcuREd. Retrieved from https://www.ecured.cu/index.php/Sobrecarga_de_funciones_(programaci%C5%B3n)
+
+Anónimo. (2015, Septiembre 7). Wikipedia. Retrieved from https://es.wikipedia.org/wiki/instancia_(inform%C3&A1tica)
+
+León, M. (2004, Septiembre 2). Diccionario de informática, Telecomunicaciones y Ciencias Afines. Retrieved from https://books.google.mx/books?id=31cagl0wNzEC&lpg)PA471&dq=shadowing+informatica&source=bl&ots=5IF_vnG0Yd&sig=9_N5zxal9PCmU8vQrexh4bbH7rg&hl=es-419&sa=X&ved=0CDoQ6AEwBGoVChMI_aynoqGgyAIVBEOSCh0jcwCR#V=onepage&q=shadowing%20informatical&f=false
+
+Solis, G. (2012, Diciembre 19). SLideShare. Retrieved from http://es.slideshare.net/gusolis93/memoria-dinamica-15706001
+
